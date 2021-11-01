@@ -1,18 +1,9 @@
 from django.http import HttpResponse
 
 
-# displays either login page or user home page depending on if user is logged in
-def indexPageView(request):
-    return HttpResponse('Index Page')
-
-
-# displays form to login or create profile
-def loginPageView(request):
-    return HttpResponse('Login Page')
-
 
 # displays posts from other people
-def homePageView(requests):
+def indexPageView(requests):
     return HttpResponse('Home Page')
 
 
